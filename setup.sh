@@ -1,7 +1,7 @@
-pip install virtualenv
+pip3 install virtualenv
 virtualenv blogenv
 source ./blogenv/bin/active
-pip install ./requirements.txt
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
+pip3 install -r ./requirements.txt
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver
